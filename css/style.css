@@ -1,0 +1,71 @@
+:root{
+    --main-color-1: #FF543E;
+    --color-2: #FFDFB9;
+    --color-3: #FFCCC5;
+    --color-4: #2EC6A3;
+    --color-5: #FFF1F0;
+    --darkGray-color: #5A5A5A;
+    --darkGray-1-color: #8E8E8E;
+    --lightGray-color: #C0C0C0;
+    --body-color: #242529;
+    --white-color: #FFFFFF;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden;
+    margin-bottom: 0 auto;
+    background: var(--white-color);
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header start  */
+header {
+    width: 100%;
+    height: 70px;
+    background: rgba(255, 204, 197, 0.40);
+    padding-top: 16px;
+}
+
+header .logo a {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--darkGray-color);
+}
+
+header .links ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    justify-content: center;
+}
+
+header .links li {
+    padding-right: 52px;
+}
+
+header .links li a.active {
+    color: var(--main-color-1);
+}
+
+header .links li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--darkGray-color);
+}
+
+header .links li img {
+    padding-left: 6px;
+    width: 18px;
+    height: 18px;
+}
+
+/* banner start */
