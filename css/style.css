@@ -9,6 +9,77 @@
     --lightGray-color: #C0C0C0;
     --body-color: #242529;
     --white-color: #FFFFFF;
+    --black-color: #000000;
+    --silver-color: #F5F5F5;
+
+    /* graph progress-bar colors */
+    --light-orange-color: #ffb6aa;
+    --dOrange-color: #FF543E;
+    --light-skyblue-color: #E2F2F8;
+    --dSkyblue-color: #1E99CC66;
+    --light-green-color: #D1F2EB;
+    --dGreen-color: #2EC6A366;
+    --light-purple-color: #eaa8fa8f;
+    --dPurple-color: #6B03858F;
+    --light-yellow-color: #ffea97;
+    --dYellow-color: #FFDE55;
+    --light-black-color: #6E6F80;
+    --dBlack-color: #272727;
+}
+
+/* background colors */
+.bg-main {
+    background-color: var(--main-color-1);
+}
+.bg-body-clr {
+    background-color: var(--body-color);
+}
+.bg-light-orange {
+    background-color: var(--light-orange-color);
+}
+.bg-dOrange {
+    background-color: var(--dOrange-color);
+}
+.bg-light-skyblue {
+    background-color: var(--light-skyblue-color);
+}
+.bg-dSkyblue {
+    background-color: var(--dSkyblue-color);
+}
+.bg-light-green {
+    background-color: var(--light-green-color);
+}
+.bg-dGreen {
+    background-color: var(--dGreen-color);
+}
+.bg-light-purple {
+    background-color: var(--light-purple-color);
+}
+.bg-dPurple {
+    background-color: var(--dPurple-color);
+}
+.bg-light-yellow {
+    background-color: var(--light-yellow-color);
+}
+.bg-dYellow {
+    background-color: var(--dYellow-color);
+}
+.bg-light-black {
+    background-color: var(--light-black-color);
+}
+.bg-dBlack {
+    background-color: var(--dBlack-color);
+}
+
+/* button css */
+.btn {
+    width: 125px;
+    height: 45px;
+    padding: 10px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
 }
 
 body
@@ -32,7 +103,7 @@ header {
     width: 100%;
     height: 70px;
     background: rgba(255, 204, 197, 0.40);
-    padding-top: 16px;
+    padding-top: 11px;
 }
 
 header .logo a {
@@ -69,3 +140,163 @@ header .links li img {
 }
 
 /* banner start */
+
+.banner {
+    width: 100%;
+    height: 614px;
+    background-color: var(--white-color);
+}
+
+.banner .left-side {
+    padding-top: 129px;
+}
+
+.banner .left-side h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: capitalize;
+    color: var(--body-color);
+    padding-bottom: 30px;
+}
+
+.banner .left-side p {
+    font-size: 14px;
+    line-height: normal;
+    color: var(--darkGray-1-color);
+    padding-bottom: 24px;
+}
+
+.banner .left-side .email {
+    position: relative;
+    padding-bottom: 21px;
+}
+
+.banner .left-side input {
+    width: 350px;
+    height: 45px;
+    padding: 18px 35px 18px 46px;
+    align-items: flex-start;
+    border: 1px solid var(--lightGray-color);
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--darkGray-1-color);
+    margin-right: 19px;
+}
+
+.banner .left-side .email img {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 15px;
+    top: 13px;
+}
+
+.banner .left-side .check-list ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.banner .left-side .check-list ul li {
+    padding-right: 20px;
+}
+
+.banner .left-side .check-list ul li span {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--body-color);
+    padding-left: 6px;
+}
+
+.banner .left-side .check-list ul img {
+    width: 20px;
+    height: 20px;
+}
+
+.banner img.banner {
+    width: 602px;
+    height: 554px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 116px;
+}
+
+/* onlineshop banner start */
+.onlinshop-banner {
+    padding: 60px 0;
+    background-color: var(--silver-color);
+}
+
+.onlinshop-banner .content-sec {
+    padding-top: 4.4375rem;
+}
+
+.onlinshop-banner .content-sec h1 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 52px;
+    color: var(--black-color);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.onlinshop-banner .content-sec p {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--darkGray-1-color);
+    padding-bottom: 26px;
+}
+
+.onlinshop-banner .img-sec {
+    width: 35.25rem;
+    height: auto;
+}
+
+/* overview section start */
+.overview {
+    padding: 60px 0;
+}
+
+.overview h1 {
+    font-size: 44px;
+    font-weight: 600;
+    color: var(--body-color);
+}
+
+.overview p {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--body-color);
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.overview .progressbar {
+    display: flex;
+    align-items: center;
+}
+
+.overview .progressbar span {
+    font-size: 22px;
+    color: var(--darkGray-color);
+    padding-right: 6px;
+}
+
+.overview .progressbar .bar {
+    width: 100%;
+    height: 20px;
+}
+
+.overview .progressbar .bar .count-b {
+    height: 20px;
+}
+
+.overview .graph-img img {
+    width: 100%;
+    height: auto;
+    padding-top: 104px;
+}
